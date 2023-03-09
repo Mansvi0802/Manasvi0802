@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENQUIRY FORM</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <div class="container">
+        <div class="topnav" id="myTopnav">
+        <nav>
+       <a href="enquiryform.html">Enquiry Form</a>
+       <a href="productlist.html">Product List</a>
+    
+        </nav>
+        </div>
+        <form name="myForm" action="/assignment.html" onsubmit="return validateForm()" method="post" required>
+        <h1>Enquiry Form</h1>
+        <div class="text-box">
+            <label>Full Name</label>
+            <input type="text" name=""value="" placeholder="Enter your full name" required>
+        </div>
+        <div class="error"></div>
+        <div class="text-box">
+            <label>Email-id</label>
+            <input type="email-d" name=""value="" placeholder="Enter your email-id" required>
+        </div> 
+        <div class=""error></div>
+        <div class="text-box">
+            <label>Contact no.</label>
+            <input type="contact no." name=""value="" placeholder="Enter your contact no." optional>
+            </div>
+        <div class="text-box">
+                <label>Enuiry Message</label> 
+                <textarea placeholder="enter your message" required></textarea> 
+            <a href="submit.html"><button type="button" class="btn btn-primary">Submit</button></a>
+        </div>
+    </div>
+        </form>
+        <script defer src="./assignment.js"></script>
+</body>
+</html>
